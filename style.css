@@ -273,3 +273,54 @@ nav ul li a:hover{
     padding: 10px 50px 10px 10px;
     text-align: justify;
 }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #c3b3a3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #c3b3a3;
+  }
+  .column {
+    float: left;
+    margin-top: 6px;
+    padding: 20px;
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .row {
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+.bloc9{
+        text-align: center;
+        width: 30%;
+        margin-left: 35%;
+}
+.bloc9 i{
+    font-size: 30px;
+    color: #c3b3a3;
+}
