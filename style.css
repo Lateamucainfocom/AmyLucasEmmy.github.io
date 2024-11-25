@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -14,24 +13,24 @@ body {
     text-align: left;
     width: 17%;
     height: auto;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 1%;
 
 }
 .bloc1 h1{
     color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-top: -15%;
     font-size: 400%;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 nav{
-    padding-top: 1%;
+    padding-top: 5%;
 }
 nav ul li a {
     text-decoration: none;
-    margin-left: 1%;
+    margin-left: 8%;
     width: 100%;
     font-weight: bold;
     color: #000000;
@@ -39,6 +38,11 @@ nav ul li a {
     padding: 100px 90px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+hr{
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-top: -10px;
+}  
 nav ul{
     margin-left: -40px;
     display: flex;
@@ -49,26 +53,29 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 .bloc2{
-    margin-top: 5%;
+    margin-top: 1%;
     background-color: rgb(195, 179, 163);
-    height: auto;
+    height: 85%;
     width: 100%;
+    padding-bottom: 3%;
  }
  .bloc2 h1{
      text-align: left;
+     font-family: 'Times New Roman', Times, serif;
      margin-left: 4%;
      color: rgb(0, 0, 0);
-     padding-top: 50px;
+     padding-top: 40px;
      font-size: 40px;
      font-weight:lighter;
- 
  }
  .bloc2 p{
      color: rgb(0, 0, 0);
+     margin-top: 60px;
      margin-left: 4%;
      font-size: 25px;
      margin-right: 4%;
      text-align: justify;
+     font-family: 'Times New Roman', Times, serif;
  }
  .sousbloc2 {
      color: rgb(0, 0, 0);
@@ -81,13 +88,13 @@ nav ul li a:hover{
 
  .bloc2 img {
     margin-left: 62%;
-    margin-top: -18%;
+    margin-top: -15%;
     border: 3px solid rgb(255, 255, 255);
     box-shadow: 3px 3px 3px rgb(168, 167, 167);
-    width: 35%;
+    width: 34%;
     height: 90%; 
-    position: relative; 
-    display: block; /
+    position: relative;
+    display: flex;
 }
 @media screen and (max-width: 1024px) {
     .bloc2 img {
@@ -138,6 +145,7 @@ nav ul li a:hover{
 }
 
 .bloc3 {
+    margin-top: auto;
     text-align: center;
     margin: 3rem 0;
     margin-top: 250px;
@@ -242,8 +250,33 @@ body {
     width: 50%;
     margin: 1rem auto;
 }
-.bloc4{
+.bloc4 {
+    text-align: center;
+    margin: 3rem 0;
+    margin-top: 250px;
     margin-top: 38%;
+}
+.bloc4 p {
+    font-size: 2.5rem;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+@media screen and (max-width: 1024px) {
+    .bloc4 {
+       margin-top: 610%; 
+    }
+
+}
+.bloc5 {
+    text-align: center;
+    margin: 3rem 0;
+    margin-top: 250px;
+}
+
+.bloc5 p {
+    font-size: 2.5rem;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 .bloc6{
     margin-top: 4%;
@@ -260,6 +293,7 @@ body {
     margin-left: 40%;
     margin-top: -26%;
     text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 .bloc6 p{
     font-size: 27px;
@@ -270,9 +304,10 @@ body {
     padding: 10px 50px 10px 50px;
     text-align: justify;
     color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
 }
 .bloc8{
-    margin-top: 9%;
+    margin-top: 13%;
 }
 .bloc8 img{
     margin-left: 4%;
@@ -286,6 +321,7 @@ body {
     font-size: 50px;
     margin-left: 40%;
     margin-top: -26%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .bloc8 p{
     font-size: 27px;
@@ -295,14 +331,16 @@ body {
     background-color:  rgb(195, 179, 163);
     padding: 10px 10px 10px 50px;
     text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
 .bloc7{
     margin-top: 9%;
 }
 .bloc7 img{
-    margin-left: 59%;
+    margin-left: 63%;
     width: 33%;
     height: 45%;
+    display: block;
 }
 .bloc7 h1{
     font-weight:lighter;
@@ -310,6 +348,7 @@ body {
     margin-left: 4%;
     margin-top: -26%;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 .bloc7 p{
     font-size: 27px;
@@ -319,6 +358,7 @@ body {
     padding: 10px 50px 10px 10px;
     text-align: justify;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 @media (max-width: 1024px) {
     .bloc1, nav ul {
@@ -403,7 +443,7 @@ input[type=text], select, textarea {
     }
   }
   .row {
-    max-width: 600px; 
+    max-width: 1000px; 
     margin: 0 auto;
     padding: 20px;
 }
@@ -415,4 +455,32 @@ input[type=text], select, textarea {
 .bloc9 i{
     font-size: 30px;
     color: rgb(195, 179, 163);
+}
+.column1{
+    left: 4%;
+    width: 48%;
+    height: 25%;
+}
+.column2{
+    margin-top: -19.5%;
+    margin-left: 50%;
+    width: 50%;
+    height: 25%;
+}
+.column3{
+    margin-top: -10%;
+}
+.column4 {
+    text-align: center;
+}
+.bloc9{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.bloc9 i{
+margin-top: 3%;
+font-size: 30px;
+color: rgb(195, 179, 163);
+margin-bottom: 3%;
 }
