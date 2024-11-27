@@ -3,11 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.fa-arrow-up {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 3%;
+    font-size: x-large;
+    color: aliceblue;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(195, 179, 163);
+    border-radius: 60px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 .bloc1 img{
     border-radius: 50%;
     text-align: left;
