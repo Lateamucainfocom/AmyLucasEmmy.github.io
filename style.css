@@ -24,6 +24,22 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  @media screen and (max-width: 1024px) {
+  .fa-arrow-up {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 3%;
+    font-size: x-large;
+    color: aliceblue;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(195, 179, 163);
+    border-radius: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
 .bloc1 img{
     border-radius: 50%;
     text-align: left;
@@ -31,7 +47,16 @@ body {
     height: auto;
     margin-top: 2%;
     margin-left: 1%;
-
+}
+@media screen and (max-width: 1024px) {
+.bloc1 img{
+    border-radius: 50%;
+    text-align: left;
+    width: 25%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 1%;
+}
 }
 .bloc1 h1{
     color: rgb(0, 0, 0);
@@ -41,6 +66,16 @@ body {
     font-size: 400%;
     margin-left: 10%;
 }
+@media screen and (max-width: 1024px) {
+    .bloc1 h1{
+        color: rgb(0, 0, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        margin-top: -20%;
+        font-size: 180%;
+        margin-left: 20%;
+        }
+    }
 nav{
     padding-top: 5%;
 }
@@ -54,6 +89,7 @@ nav ul li a {
     padding: 100px 90px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 hr{
     border: 1px solid rgb(0, 0, 0);
     margin-left: 30px;
@@ -68,6 +104,40 @@ nav ul{
 nav ul li a:hover{
     text-decoration: underline;
 }
+
+
+@media (max-width: 1024px) {
+    nav ul {
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        border: none; 
+        padding: 10px 10px;
+        margin-left: 10%;
+    }
+
+    nav ul li {
+        margin-top: -10px;
+        margin-right: 10px;
+        margin-left: 30px;
+        border: none;
+    }
+
+    nav ul li a {
+        font-size: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+        display: inline-block; 
+        border: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li a {
+        padding: 1px 1px; 
+    }
+}
+
 .bloc2{
     margin-top: 1%;
     background-color: rgb(195, 179, 163);
@@ -75,6 +145,16 @@ nav ul li a:hover{
     width: 100%;
     padding-bottom: 3%;
  }
+
+ @media screen and (max-width: 1024px) {
+ .bloc2{
+    margin-top: 1%;
+    background-color: rgb(195, 179, 163);
+    height: 70%;
+    width: 100%;
+    padding-bottom: 3%;
+ }
+}
  .bloc2 h1{
      text-align: left;
      font-family: 'Times New Roman', Times, serif;
@@ -84,6 +164,19 @@ nav ul li a:hover{
      font-size: 40px;
      font-weight:lighter;
  }
+
+ @media screen and (max-width: 1024px) {
+ .bloc2 h1{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 4%;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight:lighter;
+}
+}
+
  .bloc2 p{
      color: rgb(0, 0, 0);
      margin-top: 60px;
@@ -93,6 +186,19 @@ nav ul li a:hover{
      text-align: justify;
      font-family: 'Times New Roman', Times, serif;
  }
+
+ @media screen and (max-width: 1024px) {
+ .bloc2 p{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 4%;
+    font-size: 25px;
+    margin-right: 4%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+}
+
  .sousbloc2 {
      color: rgb(0, 0, 0);
      margin-left: 2%;
@@ -102,7 +208,7 @@ nav ul li a:hover{
      margin-top: 50px;
  }
 
- .bloc2 img {
+ .bloc2 .femme img {
     margin-left: 62%;
     margin-top: -15%;
     border: 3px solid rgb(255, 255, 255);
@@ -124,31 +230,16 @@ nav ul li a:hover{
         font-size: 25px;
         text-align: justify;
         margin-top: 50px;
-        margin-right: 0%;
+        margin-right: 0%; 
     }
 }
 
 @media screen and (max-width: 768px) {
-    .bloc2 img {
-        margin-left: 50%;
+    .bloc2 .femme img{
+        margin-left: 20%;
         margin-top: 5%; 
-        width: 50%; 
-    }
-    .sousbloc2{
-        color: rgb(0, 0, 0);
-        margin-left: 0%;
-        font-size: 25px;
-        text-align: justify;
-        margin-top: 50px;
-        margin-right: 0%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .bloc2 img {
-        margin-left: 10%; 
-        margin-top: 10%;
-        width: 10%; 
+        width: 300px;
+        height: 400px; 
     }
     .sousbloc2{
         color: rgb(0, 0, 0);
@@ -172,6 +263,15 @@ nav ul li a:hover{
     color: transparent;
     -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
+
+@media screen and (max-width: 1024px) {
+    .bloc3 p{
+        text-align: center; 
+        margin-top: 0%; 
+        width: -10%;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -184,6 +284,14 @@ body {
     height: 100vh;
     padding: 2rem 0;
 }
+
+@media screen and (max-width: 1024px) {
+.blocimg {
+    position: relative;
+    margin-top: -10%;
+}
+}
+
 .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img, .img7 img, .img8 img {
     position: absolute;
     border: 3px solid rgb(255, 255, 255);
@@ -265,6 +373,22 @@ body {
     border: 1px solid rgb(0, 0, 0);
     width: 50%;
     margin: 1rem auto;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .bloc3 hr{
+    border: 1px solid rgb(0, 0, 0);
+    width: 50%; 
+    margin-top: 350px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bloc4 hr{
+    border: 1px solid rgb(0, 0, 0);
+    width: 50%; 
+    margin-top: 300px;
+    }
 }
 .bloc4 {
     text-align: center;
@@ -272,17 +396,25 @@ body {
     margin-top: 250px;
     margin-top: 38%;
 }
+
+@media screen and (max-width: 1024px) {
+    .bloc4 {
+       margin-top: 650%; 
+    }
+
+}
 .bloc4 p {
     font-size: 2.5rem;
     color: transparent;
     -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
-@media screen and (max-width: 1024px) {
-    .bloc4 {
-       margin-top: 610%; 
-    }
 
+@media screen and (max-width: 1024px) {
+    .bloc4 p {
+       margin-top: 0%; 
+    }
 }
+
 .bloc5 {
     text-align: center;
     margin: 3rem 0;
@@ -307,7 +439,15 @@ body {
     font-weight: lighter;
     font-size: 50px;
     margin-left: 40%;
-    margin-top: -26%;
+    margin-top: -40%;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bloc6 h1{
+    font-weight: lighter;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-top: -40%;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -376,20 +516,40 @@ body {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
-@media (max-width: 1024px) {
-    .bloc1, nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
 
+
+@media (max-width: 1024px) {
     nav ul {
-        padding: 0;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        border: none; 
+        padding: 10px 10px;
+        margin-left: 10%;
     }
 
     nav ul li {
-        margin-bottom: 1rem;
+        margin-top: -10px;
+        margin-right: 10px;
+        margin-left: 30px;
+        border: none;
     }
 
+    nav ul li a {
+        font-size: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #000000;
+        display: inline-block; 
+        border: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li a {
+        padding: 1px 1px;
+    }
+}
+    
     .bloc2, .bloc6, .bloc7, .bloc8 {
         flex-direction: column;
     }
@@ -397,18 +557,8 @@ body {
     .bloc2 img {
         margin: 0 auto;
     }
-}
 
 @media (max-width: 768px) {
-    .bloc1 h1 {
-        font-size: 2rem;
-        margin: 1rem 0;
-    }
-
-    nav ul li a {
-        font-size: 1rem;
-    }
-
     .bloc2 h1, .bloc6 h1, .bloc7 h1, .bloc8 h1 {
         font-size: 1.5rem;
     }
@@ -417,6 +567,7 @@ body {
         font-size: 0.9rem;
     }
 }
+
 .bloc5{
     margin-top: 8%;
 }
@@ -499,4 +650,22 @@ margin-top: 3%;
 font-size: 30px;
 color: rgb(195, 179, 163);
 margin-bottom: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .column2{
+    margin-top: -44.5%;
+    margin-left: 50%;
+    width: 50%;
+    height: 25%;
+}
+}
+.column3{
+    margin-top: -10%;
+}
+
+@media screen and (max-width: 600px) {
+    .column3{
+    margin-top: -25%;
+}
 }
