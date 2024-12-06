@@ -419,7 +419,7 @@ body {
 .bloc5 {
     text-align: center;
     margin: 3rem 0;
-    margin-top: 250px;
+    margin-top: 15%;
 }
 
 .bloc5 p {
@@ -602,10 +602,6 @@ body {
     .bloc2 p, .sousbloc2 p, .bloc6 p, .bloc7 p, .bloc8 p {
         font-size: 0.9rem;
     }
-}
-
-.bloc5{
-    margin-top: 40%;
 }
 input[type=text], select, textarea {
     width: 100%;
