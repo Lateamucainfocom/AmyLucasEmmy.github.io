@@ -603,6 +603,7 @@ body {
         font-size: 0.9rem;
     }
 }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
