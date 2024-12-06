@@ -25,7 +25,7 @@ body {
     text-align: center;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 850px) {
   .fa-arrow-up {
     position: fixed;
     margin-left: 95%;
@@ -48,7 +48,7 @@ body {
     margin-top: 2%;
     margin-left: 1%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 850px) {
 .bloc1 img{
     border-radius: 50%;
     text-align: left;
@@ -66,7 +66,7 @@ body {
     font-size: 400%;
     margin-left: 10%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 850px) {
     .bloc1 h1{
         color: rgb(0, 0, 0);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -106,7 +106,7 @@ nav ul li a:hover{
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 850px) {
     nav ul {
         display: flex;  
         justify-content: center;
@@ -132,7 +132,7 @@ nav ul li a:hover{
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
     nav ul li a {
         padding: 1px 1px; 
     }
@@ -146,7 +146,7 @@ nav ul li a:hover{
     padding-bottom: 3%;
  }
 
- @media screen and (max-width: 1024px) {
+ @media screen and (max-width: 850px) {
  .bloc2{
     margin-top: 1%;
     background-color: rgb(195, 179, 163);
@@ -165,7 +165,7 @@ nav ul li a:hover{
      font-weight:lighter;
  }
 
- @media screen and (max-width: 1024px) {
+ @media screen and (max-width: 850px) {
  .bloc2 h1{
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
@@ -187,7 +187,7 @@ nav ul li a:hover{
      font-family: 'Times New Roman', Times, serif;
  }
 
- @media screen and (max-width: 1024px) {
+ @media screen and (max-width: 850px) {
  .bloc2 p{
     color: rgb(0, 0, 0);
     margin-top: 20px;
@@ -218,25 +218,26 @@ nav ul li a:hover{
     position: relative;
     display: flex;
 }
-@media screen and (max-width: 1024px) {
-    .bloc2 img {
-        margin-left: 60%; 
-        margin-top: -5%; 
-        width: -10%;
+@media screen and (max-width: 850px) {
+    .bloc2 .femme img{
+        margin-left: 20%;
+        margin-top: 5%; 
+        width: 300px;
+        height: 400px; 
     }
     .sousbloc2{
-        color: #000000;
+        color: rgb(0, 0, 0);
         margin-left: 0%;
         font-size: 25px;
         text-align: justify;
         margin-top: 50px;
-        margin-right: 0%; 
+        margin-right: 0%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 580px) {
     .bloc2 .femme img{
-        margin-left: 20%;
+        margin-left: 25%;
         margin-top: 5%; 
         width: 300px;
         height: 400px; 
@@ -264,7 +265,7 @@ nav ul li a:hover{
     -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 850px) {
     .bloc3 p{
         text-align: center; 
         margin-top: 0%; 
@@ -285,13 +286,12 @@ body {
     padding: 2rem 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 850px) {
 .blocimg {
     position: relative;
     margin-top: -10%;
 }
 }
-
 .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img, .img7 img, .img8 img {
     position: absolute;
     border: 3px solid rgb(255, 255, 255);
@@ -353,7 +353,8 @@ body {
     width: 45%;
     height: 25%;
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 850px) {
     .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img, .img7 img, .img8 img {
         position: static;
         display: block;
@@ -363,7 +364,7 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 580px) {
     .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img, .img7 img, .img8 img {
         width: 100%;
         height: auto;
@@ -376,14 +377,14 @@ body {
     display: flex;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 580px) {
     .bloc3 hr{
     border: 1px solid rgb(0, 0, 0);
     width: 50%; 
-    margin-top: 350px;
+    margin-top: 300px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 580px) {
     .bloc4 hr{
     border: 1px solid rgb(0, 0, 0);
     width: 50%; 
@@ -397,7 +398,7 @@ body {
     margin-top: 38%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 850px) {
     .bloc4 {
        margin-top: 650%; 
     }
@@ -409,7 +410,7 @@ body {
     -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 850px) {
     .bloc4 p {
        margin-top: 0%; 
     }
@@ -427,7 +428,7 @@ body {
     -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 .bloc6{
-    margin-top: 4%;
+    margin-top: 6%;
 }
 .bloc6 img{
     width: 33%;
@@ -462,6 +463,22 @@ body {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
 }
+@media  screen and (max-width: 580px) {
+    .bloc6 img{
+        margin: 40% 1% 2% 35%;
+        height: 25%;
+        display: flex;
+    }
+    .bloc6 h1 {
+        margin-top: -65%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .bloc6 p{
+        margin-left: 4%;  
+ 
+    }
+}
 .bloc8{
     margin-top: 13%;
 }
@@ -489,6 +506,22 @@ body {
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
 }
+@media  screen and (max-width: 580px) {
+    .bloc8 img{
+        margin: 400px 10px 20px 190px;
+        height: 25%;
+    }
+    .bloc8 h1 {
+        margin-top: -380px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .bloc8 p{
+        margin-left: 4%;  
+        padding-right: 9%;  
+    }
+}
+
 .bloc7{
     margin-top: 9%;
 }
@@ -516,9 +549,24 @@ body {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
+@media  screen and (max-width: 580px) {
+    .bloc7 img{
+        margin: 380px 10px 20px 190px;
+        height: 25%;
+    }
+    .bloc7 h1 {
+        margin-top: -340px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .bloc7 p{
+        margin-left: 4%;   
+        margin-right: 4%; 
+        padding-left: 9%;
+    }
+}
 
-
-@media (max-width: 1024px) {
+@media (max-width: 850px) {
     nav ul {
         display: flex;  
         justify-content: center;
@@ -544,21 +592,17 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
     nav ul li a {
         padding: 1px 1px;
     }
 }
-    
-    .bloc2, .bloc6, .bloc7, .bloc8 {
-        flex-direction: column;
-    }
 
     .bloc2 img {
         margin: 0 auto;
     }
 
-@media (max-width: 768px) {
+@media (max-width: 580px) {
     .bloc2 h1, .bloc6 h1, .bloc7 h1, .bloc8 h1 {
         font-size: 1.5rem;
     }
@@ -569,7 +613,7 @@ body {
 }
 
 .bloc5{
-    margin-top: 8%;
+    margin-top: 40%;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -603,7 +647,7 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 580px) {
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
@@ -652,20 +696,21 @@ color: rgb(195, 179, 163);
 margin-bottom: 3%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
     .column2{
-    margin-top: -44.5%;
+    margin-top: -36.5%;
     margin-left: 50%;
     width: 50%;
     height: 25%;
+
+
 }
 }
 .column3{
     margin-top: -10%;
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
     .column3{
-    margin-top: -25%;
+    margin-top: -22%;
 }
 }
