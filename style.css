@@ -61,87 +61,82 @@ body {
 .bloc1 h1{
     color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
     margin-top: -15%;
     font-size: 400%;
-    margin-left: 10%;
+    margin-left: 23%;
 }
 @media screen and (max-width: 850px) {
     .bloc1 h1{
         color: rgb(0, 0, 0);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-align: center;
         margin-top: -20%;
         font-size: 180%;
-        margin-left: 20%;
+        margin-left: 30%;
         }
     }
-nav{
-    padding-top: 5%;
-}
-nav ul li a {
-    text-decoration: none;
-    margin-left: 8%;
-    width: 100%;
-    font-weight: bold;
-    color: #000000;
-    font-size:22px;
-    padding: 100px 90px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-hr{
-    border: 1px solid rgb(0, 0, 0);
-    margin-left: 30px;
-    margin-top: -10px;
-}  
-nav ul{
-    margin-left: -40px;
-    display: flex;
-    list-style-type: none;
-    padding-left: 15%;
-}
-nav ul li a:hover{
-    text-decoration: underline;
-}
-
-
-@media (max-width: 850px) {
-    nav ul {
-        display: flex;  
-        justify-content: center;
-        align-items: center;
-        border: none; 
-        padding: 10px 10px;
-        margin-left: 10%;
+    nav{
+        padding-top: 5%;
     }
-
-    nav ul li {
-        margin-top: -10px;
-        margin-right: 10px;
-        margin-left: 30px;
-        border: none;
-    }
-
     nav ul li a {
-        font-size: 10px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        margin-left: 8%;
+        width: 100%;
+        font-weight: bold;
         color: #000000;
-        display: inline-block; 
-        border: none;
+        font-size:22px;
+        padding: 100px 90px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-}
-
-@media screen and (max-width: 580px) {
-    nav ul li a {
-        padding: 1px 1px; 
+    
+    hr{
+        border: 1px solid rgb(0, 0, 0);
+        margin-left: 30px;
+        margin-top: -10px;
+    }  
+    nav ul{
+        margin-left: -40px;
+        display: flex;
+        list-style-type: none;
+        padding-left: 15%;
     }
-}
+    nav ul li a:hover{
+        text-decoration: underline;
+    }
+    @media (max-width: 850px) {
+        nav ul {
+            display: flex;  
+            justify-content: center;
+            align-items: center;
+            border: none; 
+            padding: 10px 10px;
+            margin-left: 10%;
+        }
+    
+        nav ul li {
+            margin-top: -10px;
+            margin-right: 10px;
+            margin-left: 30px;
+            border: none;
+        }
+    
+        nav ul li a {
+            font-size: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #000000;
+            display: inline-block; 
+            border: none;
+        }
+    }
+    @media screen and (max-width: 580px) {
+        nav ul li a {
+            padding: 1px 1px; 
+        }
+    }
 
 .bloc2{
     margin-top: 1%;
     background-color: rgb(195, 179, 163);
-    height: 85%;
+    height: 750px;
     width: 100%;
     padding-bottom: 3%;
  }
@@ -150,10 +145,15 @@ nav ul li a:hover{
  .bloc2{
     margin-top: 1%;
     background-color: rgb(195, 179, 163);
-    height: 70%;
+    height: 100%;
     width: 100%;
     padding-bottom: 3%;
  }
+}
+ @media screen and (max-width: 580px) {
+    .bloc2{
+       height: 70%;
+    }
 }
  .bloc2 h1{
      text-align: left;
@@ -215,13 +215,13 @@ nav ul li a:hover{
     box-shadow: 3px 3px 3px rgb(168, 167, 167);
     width: 34%;
     height: 90%; 
-    position: relative;
+    position: static;
     display: flex;
 }
 @media screen and (max-width: 850px) {
     .bloc2 .femme img{
-        margin-left: 20%;
-        margin-top: 5%; 
+        margin-left: 33%;
+        margin-top: 7%; 
         width: 300px;
         height: 400px; 
     }
@@ -256,7 +256,7 @@ nav ul li a:hover{
     margin-top: auto;
     text-align: center;
     margin: 3rem 0;
-    margin-top: 250px;
+    margin-top: 25%;
 }
 
 .bloc3 p {
@@ -273,6 +273,12 @@ nav ul li a:hover{
     }
 }
 
+@media screen and (max-width: 850px) {
+    .bloc3 {
+        margin-top: 40%; 
+
+    }
+}
 body {
     margin: 0;
     padding: 0;
@@ -400,7 +406,7 @@ body {
 
 @media screen and (max-width: 850px) {
     .bloc4 {
-       margin-top: 650%; 
+       margin-top: 620%; 
     }
 
 }
