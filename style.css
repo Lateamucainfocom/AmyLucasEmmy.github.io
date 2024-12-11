@@ -235,10 +235,11 @@ body {
 
 @media screen and (max-width: 580px) {
     .bloc2 .femme img{
-        margin-left: 25%;
+        margin-left: 20%;
         margin-top: 5%; 
-        width: 300px;
-        height: auto; 
+        width: 200px;
+        height: 300px; 
+        margin-right: 25%;
     }
     .sousbloc2{
         color: rgb(0, 0, 0);
