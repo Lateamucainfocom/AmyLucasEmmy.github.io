@@ -235,11 +235,11 @@ body {
 
 @media screen and (max-width: 580px) {
     .bloc2 .femme img{
-        margin-left: 20%;
         margin-top: 5%; 
-        width: 200px;
-        height: 300px; 
-        margin-right: 25%;
+        width: 50%;
+        height: 50%; 
+        margin-left: auto;
+        margin-right: auto;
     }
     .sousbloc2{
         color: rgb(0, 0, 0);
@@ -370,15 +370,15 @@ body {
         position: static;
         display: block;
         margin: 10px auto;
-        width: 90%;
         height: auto;
     }
 }
 
 @media screen and (max-width: 580px) {
     .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img, .img7 img, .img8 img {
-        width: 100%;
         height: auto;
+        margin: 10px auto;
+        display: block;
     }
 }
 .bloc4 hr, .bloc5 hr, .bloc3 hr{
@@ -406,18 +406,19 @@ body {
     text-align: center;
     margin: 3rem 0;
     margin-top: 250px;
-    margin-top: 38%;
+    margin-top: 50%;
 }
 
 @media screen and (max-width: 850px) {
     .bloc4 {
-       margin-top: 610%; 
+       margin-top: 140%; 
     }
 
-}
-@media screen and (max-width: 580px) {
-    .bloc4 {
-       margin-top: 660%; 
+    @media screen and (max-width: 580px) {
+        .bloc4 {
+           margin-top: 100%; 
+        }
+    
     }
 }
 .bloc4 p {
@@ -451,6 +452,7 @@ body {
     height: 45%;
     display: flex;
     margin-left: 4%;
+    position: static;
 }
 .bloc6 h1{
     font-weight: lighter;
@@ -475,7 +477,8 @@ body {
     .bloc6 img{
         margin: 40% 1% 2% 35%;
         height: 25%;
-        display: flex;
+        display: inline-block;
+        position: static;
     }
     .bloc6 h1 {
         margin-top: -65%;
@@ -538,6 +541,7 @@ body {
     width: 33%;
     height: 45%;
     display: block;
+    text-align: center;
 }
 .bloc7 h1{
     font-weight:lighter;
@@ -661,23 +665,24 @@ input[type=text], select, textarea {
     .column1 {
       width: 70%;
       margin-top: 10%;
+      margin-bottom: -20%;
     }
 }
 @media screen and (max-width: 580px) {
     .column3 {
-      padding-top: 35%;
+      padding-top: 50%;
     }
 }
 @media screen and (max-width: 850px) {
     .column1 {
         margin-top: 10%;
-      margin-bottom: -20%;
+        margin-bottom: -20%;
     }
 }
 @media screen and (max-width: 850px) {
     .column2 {
         margin-top: 10%;
-      margin-bottom: -20%;
+        margin-bottom: -20%;
     }
 }
 @media screen and (max-width: 850px) {
