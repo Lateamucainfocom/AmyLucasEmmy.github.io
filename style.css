@@ -77,59 +77,56 @@ body {
     }
     nav{
         padding-top: 5%;
+        
     }
     nav ul li a{
-        text-decoration: none;
-        font-weight: bold;
-        color: #000000;
-        font-size: 150%;
-        padding: 5% 30% 5% 30% ;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       text-decoration: none;
+       color: black;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-weight: bold;
+       font-size: 150%;
+    } 
+    nav ul li{
+        padding: 0% 5% 0% 5%;
     }
-    
-    .bloc1 hr{
-        border: 1px solid rgb(0, 0, 0);
-        margin-left: 10%;
-        margin-top: -10px;
-    }  
     nav ul{
-        display: flex;
         list-style-type: none;
-        padding-left: 20%;
+    }
+    ul{
+        display: flex;
+        margin-left: 22%;
     }
     nav ul li a:hover{
         text-decoration: underline;
     }
     @media (max-width: 850px) {
-        nav ul {
-            display: flex;  
-            justify-content: center;
-            align-items: center;
-            border: none; 
-            padding: 10px 10px;
-            margin-left: 10%;
+
+        ul {
+            margin-left: 25%;
         }
-    
-        nav ul li {
-            margin-top: -10px;
-            margin-right: 10px;
-            margin-left: 30px;
-            border: none;
-        }
-    
         nav ul li a {
-            font-size: 10px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color: #000000;
-            display: inline-block; 
-            border: none;
+            font-size: 15px;
         }
     }
-    @media screen and (max-width: 580px) {
+    @media (max-width: 580px) {
+
+        ul {
+            margin-left: 25%;
+        }
         nav ul li a {
-            padding: 1px 1px; 
+            font-size: 13px;
         }
     }
+    @media (max-width: 490px) {
+
+        ul {
+            margin-left: 8%;
+        }
+    }
+    .bloc1 hr{
+        border: 1px solid rgb(0, 0, 0);
+        margin-top: -1%;
+    }  
 
 .bloc2{
     margin-top: 1%;
@@ -300,7 +297,6 @@ body {
 @media screen and (max-width: 850px) {
 .blocimg {
     position: relative;
-    margin-top: -10%;
 }
 }
 .img1 img, .img2 img, .img3 img, .img4 img, .img5 img, .img6 img, .img7 img, .img8 img {
@@ -416,7 +412,7 @@ body {
 
     @media screen and (max-width: 580px) {
         .bloc4 {
-           margin-top: 100%; 
+           margin-top: 90%; 
         }
     
     }
