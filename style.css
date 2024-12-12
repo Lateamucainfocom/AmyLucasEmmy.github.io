@@ -63,7 +63,7 @@ body {
     color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -15%;
-    font-size: 400%;
+    font-size: 390%;
     margin-left: 25%;
 }
 @media screen and (max-width: 850px) {
@@ -71,10 +71,15 @@ body {
         color: rgb(0, 0, 0);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-top: -20%;
-        font-size: 180%;
+        font-size: 250%;
         margin-left: 30%;
         }
     }
+    @media screen and (max-width: 580px) {
+        .bloc1 h1{
+            font-size: 180%;
+            }
+        }
     nav{
         padding-top: 5%;
         
@@ -121,6 +126,16 @@ body {
 
         ul {
             margin-left: 8%;
+        }
+    }
+    @media (max-width: 400px) {
+
+        ul {
+            margin-left: 5%;
+        }
+
+        nav ul li a{
+            font-size: 10px;
         }
     }
     .bloc1 hr{
@@ -700,4 +715,3 @@ font-size: 30px;
 color: rgb(195, 179, 163);
 margin-bottom: 3%;
 }
-
