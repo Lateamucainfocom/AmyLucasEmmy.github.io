@@ -416,7 +416,7 @@ body {
 }
 @media screen and (max-width: 850px) {
     .bloc4 {
-       margin-top: 140%; 
+       margin-top: 160%; 
     }
 }
 .bloc5 {
@@ -438,6 +438,7 @@ body {
     height: 350px;
     float: left;
     margin-left: 4%;
+    position:absolute;
     margin-top: -20%;
 }
 .bloc6 h1{
@@ -459,9 +460,11 @@ body {
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
 }
-@media  screen and (max-width: 580px) {
+
+@media  screen and (max-width: 850px) {
     .bloc6 img{
         float: none;
+        position: relative;
         margin-top: 2%;
         height: 200px;
         width: 200px;
@@ -508,9 +511,10 @@ body {
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
 }
-@media  screen and (max-width: 580px) {
+@media  screen and (max-width: 850px) {
     .bloc8 img{
         float: none;
+        position: relative;
         margin-top: 2%;
         height: 200px;
         width: 200px;
@@ -557,13 +561,14 @@ body {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
-@media  screen and (max-width: 580px) {
+@media  screen and (max-width: 850px) {
     .bloc7 img{
         margin-left: 5%;
         float: none;
         margin-top: 2%;
         height: 200px;
         width: 200px;
+        position:relative;
     }
     .bloc7 h1 {
         margin-left: 0px;
