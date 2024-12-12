@@ -438,7 +438,6 @@ body {
     height: 350px;
     float: left;
     margin-left: 4%;
-    position: absolute;
     margin-top: -20%;
 }
 .bloc6 h1{
@@ -488,7 +487,6 @@ body {
     width: 33%;
     height: 350px;
     margin-left: 4%;
-    position: absolute;
     margin-top: -22%;
 
 }
