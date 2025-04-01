@@ -1,0 +1,74 @@
+
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [ 
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Accueil",
+        "item": "https://siteinternet.html" 
+      },
+      {
+        "@type": "ListItem",
+        "position": 2, 
+        "name": "Entretien de jardin",
+        "item": "https://services-entretien-jardin.html"  
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Creation de massif floraux",
+        "item": "https://services-creation-de-floraux.html"
+      },
+      {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Elagage et taille d'arbres",
+          "item": "https://services-elagage-et-taille-arbres.html"
+      },
+      {
+          "@type": "ListItem",
+          "position": 2, 
+          "name": "Arrosage automatique",
+          "item": "https://services-arrosage-automatique.html"
+      },
+      {
+          "@type": "ListItem",
+          "position": 2, 
+          "name": "Paysagisme et amenagement",
+          "item": "https://services-Paysagisme-et-amenagement.html"
+      },
+      {
+          "@type": "ListItem",
+          "position": 2, 
+          "name": "Plantation d'arbres et d'arbustes",
+          "item": "https://services-Plantation-darbres-et-arbustes.html"
+      },
+      {
+          "@type": "ListItem",
+          "position": 2, 
+          "name": "Engazonement et pose de gazon ",
+          "item": "https://services-Engazonnement-et-pose-de-gazon.html"
+      },
+      {
+          "@type": "ListItem",
+          "position": 2, 
+          "name": "Creation de mur vegetaux",
+          "item": "https://services-Creation-de-murs-vegetaux.html"
+      },
+      {
+          "@type": "ListItem",
+          "position": 2, 
+          "name": "Amenagement de terrasse en bois",
+          "item": "https://services-Amenagement-de-terrasses-en-bois.html"
+      },
+      {
+          "@type": "ListItem",
+          "position": 2, 
+          "name": "Conseil en jardinage",
+          "item": "https://services-Conseil-en-jardinage.html" 
+      }
+    ]
+    
+  }
