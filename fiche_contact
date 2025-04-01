@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucas Jardins - Experts en jardinage et paysagisme. Découvrez nos services sur-mesure pour un espace vert idéal.">
+    <title>Lucas Jardins | Accueil</title>
+    <meta property="og:title" content="Lucas Jardins | Jardinage et Paysagisme">
+    <meta property="og:description" content="Faites appel à Lucas Jardins pour l’entretien et l’aménagement de vos espaces verts.">
+    <meta property="og:image" content="https://lucasjardins.fr/images/jardin.jpg">
+    <meta property="og:url" content="https://lucasjardins.fr">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="accueil">Lucas Jardins</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#">Nos Services </a>
+                    <ul class="submenu">
+                        <li><a href="services-entretien-jardin.html">Entretien de jardin</a></li>
+                        <li><a href="services-creation-massifs.html">Création de massifs floraux</a></li>
+                        <li><a href="services-elagage.html">Élagage et taille d'arbres</a></li>
+                        <li><a href="services-arrosage-automatique.html">Arrosage automatique</a></li>
+                        <li><a href="services-paysagisme.html">Paysagisme et aménagement</a></li>
+                        <li><a href="services-plantation.html">Plantation d’arbres et arbustes</a></li>
+                        <li><a href="services-engazonnement.html">Engazonnement et pose de gazon</a></li>
+                        <li><a href="services-murs-vegetaux.html">Création de murs végétaux</a></li>
+                        <li><a href="services-terrasse-bois.html">Aménagement de terrasses en bois</a></li>
+                        <li><a href="services-conseil-jardinage.html">Conseil en jardinage</a></li>
+                    </ul>
+                </li>
+                <li><a href="#realisation">Réalisations</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="retour">
+        <a href="siteinternet.html">Lucas jardins <strong></a>/ Contact</strong>
+    </div>
+    <h1>Contact</h1>
+    <section class="contact-mini">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <input type="text" name="nom" placeholder="Nom" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="3" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+</main>
+<footer>
+    <p>&copy; 2024 Lucas Jardins. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
